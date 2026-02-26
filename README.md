@@ -52,7 +52,7 @@ CIRCUITPY_WEB_API_PORT = 8080
 
 Format: `SYMBOL, coingecko_id`
 
-Example:
+Example (default):
 ```
 BTC, bitcoin
 ETH, ethereum
@@ -60,7 +60,19 @@ DOGE, dogecoin
 XRP, ripple
 ```
 
-Find CoinGecko IDs at: https://api.coingecko.com/api/v3/coins/list
+**Common coin ID examples** (search [CoinGecko](https://www.coingecko.com) to find more IDs):
+- Bitcoin: `bitcoin`
+- Ethereum: `ethereum`
+- Cardano: `cardano`
+- Solana: `solana`
+- Polkadot: `polkadot`
+- Litecoin: `litecoin`
+- Uniswap: `uniswap`
+- Aave: `aave`
+- Yearn Finance: `yearn-finance`
+- Monero: `monero`
+- Chainlink: `chainlink`
+- Cosmos: `cosmos`
 
 ## Usage
 
@@ -119,10 +131,20 @@ Price data is fetched from the **CoinGecko API** (free tier, no API key required
 - May be rate-limited by CoinGecko API
 - Wait a few minutes before retrying
 
+**Can't find a coin's CoinGecko ID**
+- Go to https://www.coingecko.com and search for the coin
+- The URL slug is the CoinGecko ID (e.g., `coingecko.com/cryptocurrencies/**cardano**` → use `cardano`)
+- Add it to `coin_config.txt` with format: `SYMBOL, coingecko_id` (one coin per line)
+- Wait a few minutes before retrying
+
 **Matrix not displaying**
 - Verify GPIO pin configuration matches your setup
 - Check RGB matrix panel connections
 - See pin assignments in `code.py` lines 71-84
+
+### CircuitPython Version Compatibility
+
+This project is compatible with **CircuitPython 9.x and 10.x**. Tested with CircuitPython 10.1.3 and 9.2.7. If you encounter issues, try a stable release from [circuitpython.org/downloads](https://circuitpython.org/downloads/).
 
 ## Project Structure
 
@@ -176,6 +198,7 @@ For issues, questions, or contributions, please open an issue on GitHub.
 ---
 
 **Happy tracking! 📊💰**
+
 
 
 
