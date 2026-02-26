@@ -1,0 +1,35 @@
+# System files
+.DS_Store
+.fseventsd/
+.metadata_never_index
+System Volume Information/
+Thumbs.db
+*.pyc
+
+# CircuitPython/VS Code
+.vscode/
+.env
+*.code-workspace
+
+# Backup and temporary files
+*.bak
+*.tmp
+*~
+*.swp
+*.swo
+
+# Old/unused folders (cleanup)
+backupstroagearea/
+bmps/
+fonts/
+Images/
+sd/
+
+# Old files
+*.pem
+index.html
+bitcoin_background.bmp
+error_log.txt
+boot_out.txt
+
+# Adafruit libraries are now cleaned to essentials only
