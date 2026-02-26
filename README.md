@@ -22,7 +22,7 @@ A CircuitPython application that displays cryptocurrency prices and 30-day price
 
 ## Installation
 
-1. Install CircuitPython 9.2.7+ on your Matrix Portal S3
+1. [Install CircuitPython 9.2.7+ on your Matrix Portal S3 (Tested with 10.1.3 & 9.2.7](https://learn.adafruit.com/adafruit-matrixportal-s3/install-circuitpython)
 2. Download the Adafruit CircuitPython library bundle
 3. Copy required libraries to `/lib`:
    - `adafruit_httpserver/` (all modules)
@@ -176,4 +176,5 @@ For issues, questions, or contributions, please open an issue on GitHub.
 ---
 
 **Happy tracking! 📊💰**
+
 
