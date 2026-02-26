@@ -76,6 +76,7 @@ Find CoinGecko IDs at: https://api.coingecko.com/api/v3/coins/list
 - **Remove Coin**: Click "Remove" button next to any tracked coin
 - **Refresh Prices**: Manually fetch latest price data
 - **Current Prices**: View all tracked coins with 24-hour percentage changes
+<img width="418" height="853" alt="Screenshot 2026-02-25 201215" src="https://github.com/user-attachments/assets/623a4a8c-6bec-408c-a805-6dec2594155a" />
 
 ## API Endpoints
 
@@ -175,3 +176,4 @@ For issues, questions, or contributions, please open an issue on GitHub.
 ---
 
 **Happy tracking! 📊💰**
+
